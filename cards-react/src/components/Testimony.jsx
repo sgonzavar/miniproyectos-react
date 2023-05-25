@@ -1,10 +1,23 @@
 
 import '../styles/Testomony.css'
-const Testimony = ({name, image, country, job, company, note}) => {
+import { useSortable } from '@dnd-kit/sortable'
+import { CSS } from '@dnd-kit/utilities'
 
-  console.log(name);
+const Testimony = ({testimonyId, name, image, country, job, company, note}) => {
+  const { attributes, listeners, setNodeRef, transform, transition } = useSortable({ id:testimonyId })
+
+  const style = {
+    transform: CSS.Transform.toString(transform),
+    transition
+  }
+
   return (
-    <div className="content-testimony">
+    <div 
+      style={style}
+      ref={setNodeRef}
+      {...attributes}
+      {...listeners}
+    className="content-testimony">
       <img className="image-testimony" src={image} alt={`image to ${name}`} />
       <div className="container-text">
         <p className="name-country"> <strong>{name}</strong> en {country}</p>
