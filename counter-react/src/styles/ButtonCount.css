@@ -1,0 +1,25 @@
+button {
+    width: 250px;
+    height: 80px;
+    font-family:  Roboto, sans-serif !important;
+    font-weight: blod !important;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin: 5px !important; 
+    cursor: pointer;
+    font-size: 35px !important;
+}
+
+button:hover {
+    background-color: transparent;
+}
+
+
+.button-click {
+    background-color: cornflowerblue;
+}
+
+.button-reset {
+    background-color: hotpink;
+}
