@@ -1,0 +1,25 @@
+html, body {
+  background-color: #21232a;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  display: grid;
+  place-content: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.contain-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+button {
+  padding: 15px;
+  font-size: 1.3rem;
+  border-radius: 8px;
+}
