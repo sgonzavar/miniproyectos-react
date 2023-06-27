@@ -1,6 +1,12 @@
 .app-container {
   font-family: 'Roboto', sans-serif;
 
+  @media (max-width: 768px) and (min-width: 300px) {
+    & {
+      background-image: none !important;
+    }
+  }
+
   h1 {
     font-weight: 600;
     padding-top: 20px;
