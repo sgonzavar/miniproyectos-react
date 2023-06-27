@@ -72,7 +72,7 @@ const Form = ({ dates }) => {
           type="text"
           name='petOwner'
           className='u-full-width'
-          placeholder='pet owner'
+          placeholder='Pet owner'
           onChange={handleChange}
           value={petOwner}
         />
@@ -105,7 +105,7 @@ const Form = ({ dates }) => {
         
         <button
           type='submit'
-          className='u-full-width button-primary'  
+          className=''  
         >Add date</button>
       </form>
     </>

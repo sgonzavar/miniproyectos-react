@@ -2,12 +2,12 @@ import PropTypes  from 'prop-types'
 
 const Date = ({ date, deleteDate }) => {
   return (
-    <div className='citas'>
-      <p>Pet: <span>{date.petsName}</span></p>
-      <p>Pet Owner: <span>{date.petOwner}</span></p>
-      <p>Date: <span>{date.petDate}</span></p>
-      <p>Hours: <span>{date.petTime}</span></p>
-      <p>Symptoms: <span>{date.petSymp}</span></p>
+    <div className='dates-container'>
+      <p>Pet : <span>{date.petsName}</span></p>
+      <p>Pet Owner : <span>{date.petOwner}</span></p>
+      <p>Date : <span>{date.petDate}</span></p>
+      <p>Hours : <span>{date.petTime}</span></p>
+      <p>Symptoms : <span>{date.petSymp}</span></p>
 
       <div className="button-container">
         <button

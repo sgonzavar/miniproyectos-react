@@ -1,3 +1,69 @@
+$color_1: #4741d7;
+$color_2: #fff;
+
 .datePets {
   padding: 0 30px !important;
+
+  h2 {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+  }
+
+  form {
+    border: 2px solid #4f46e5;
+    border-radius: 8px;
+    padding: 15px 10%;
+    background-color: $color_2;
+
+    span {
+      font-size: 12px;
+      color: #a6a0a0;
+      font-weight: 500;
+    }
+
+    input {
+      border: 1px solid #a6a0a0;
+      border-radius: 8px;
+      padding: 5px;
+    }
+
+    textarea {
+      resize: none;
+    }
+
+    button {
+      background: #fff;
+      color: $color_1;
+      border: 2px solid #4741d7;
+      position: relative;
+      z-index: 1;
+      overflow: hidden;
+      display: inline-block;
+      border-radius: 8px;
+      width: 100%;
+      &:hover {
+        color: $color_2;
+
+        &::after {
+          transition: all 0.3s ease-out;
+          transform: scale(1, 1);
+        }
+      }
+      &::after {
+        content: "";
+        background: #4741d7;
+        border: 2px solid $color_2;
+        border-radius: 8px;
+        position: absolute;
+        z-index: -1;
+        display: block;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        transform: scale(0, 0);
+        transition: all 0.3s ease;
+      }
+    }
+  }
 }

@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react'
 import Form from './Components/Form'
 import Date from './Components/Date'
 
+import background from './Styles/img/background.svg'
+
 const App = () => {
 
   let initialDates = JSON.parse(localStorage.getItem('dates'))
@@ -33,14 +35,14 @@ const App = () => {
   }, [allDates])
 
   return (
-    <>
+    <div className='app-container' style={{ backgroundImage: `url(${background})`}}> 
       <h1>veterinary administration</h1>
       <div className="container">
         <div className="row">
           <div className="one-half column datePets">
             <Form dates={ allDatesCreator }/>
           </div>
-          <div className="one-half column">
+          <div className="one-half column datesList">
 
             { allDates.length === 0 ? <h2>no dates</h2> 
             : <h2>manage your appointments</h2> }
@@ -55,7 +57,7 @@ const App = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
