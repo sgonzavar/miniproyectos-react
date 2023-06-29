@@ -1,0 +1,51 @@
+.budget-text {
+  p {
+    color: rgb(35 169 142);
+    letter-spacing: 0.7px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+
+    span {
+      color: white;
+    }
+  }
+}
+
+.budget-success {
+  p {
+    color: rgb(35 169 142);
+    letter-spacing: 0.7px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+
+    span {
+      color: white;
+    }
+  }
+}
+
+.budget-warning {
+  p {
+    color: rgb(35 169 142);
+    letter-spacing: 0.7px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+
+    span {
+      color: rgb(241, 229, 63);
+    }
+  }
+}
+
+.budget-danger {
+  p {
+    color: rgb(35 169 142);
+    letter-spacing: 0.7px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+
+    span {
+      color: rgb(248, 59, 59);
+    }
+  }
+}

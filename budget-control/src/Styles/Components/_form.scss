@@ -1,0 +1,65 @@
+.form-container-budget {
+  margin: 0;
+
+  input {
+    border-radius: 15px;
+    border: none;
+
+    &::placeholder {
+      color: rgba(92, 92, 92, 0.447);
+    }
+  }
+
+  .button-budget {
+    background-color: rgb(35 169 142);
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: white;
+
+    &:hover {
+      border: 2px solid rgb(35 169 142);
+      color: rgb(35 169 142);
+      font-weight: 600;
+      background-color: transparent;
+    }
+  }
+}
+
+.expenses-container {
+  margin-bottom: 0px;
+  
+  .expeses-form {
+    span {
+      color: white;
+      font-size: 1.2rem;
+      letter-spacing: 0.5px;
+    }
+
+    input {
+      border-radius: 10px;
+      border: none;
+      
+      &::placeholder {
+        color: rgba(92, 92, 92, 0.447);
+      }
+    }
+
+    .button-send {
+      background-color: rgb(35 169 142);
+      font-family: 'Roboto', sans-serif;
+      text-transform: capitalize;
+      font-size: 1.4rem;
+      font-weight: 300;
+      color: white;
+  
+      &:hover {
+        border: 2px solid rgb(35 169 142);
+        color: rgb(35 169 142);
+        font-weight: 600;
+        background-color: transparent;
+      }
+    }
+  }
+}

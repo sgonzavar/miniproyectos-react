@@ -1,0 +1,10 @@
+/* Estilos para el scroll */
+::-webkit-scrollbar {
+  width: 5px; /* Ancho del scroll */
+}
+
+/* Estilos para el pulgar (parte arrastrable) del scroll */
+::-webkit-scrollbar-thumb {
+  background-color: #4a4747; /* Color del pulgar */
+  border-radius: 5px; /* Borde redondeado del pulgar */
+}

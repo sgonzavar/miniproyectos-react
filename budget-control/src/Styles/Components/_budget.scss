@@ -1,0 +1,36 @@
+.budget-container {
+  margin: 0px 25%;
+  backdrop-filter: blur(17px);
+  border: 2px solid #ffffff14;
+  padding: 20px;
+  border-radius: 10px;
+
+  h2 {
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 8px;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    letter-spacing: 0.2px;
+  }
+
+  .spend-list {
+    .spends {
+      margin-top: 20px;
+      list-style: none;
+      p {
+        margin-bottom: 18px;
+        color: white;
+        position: relative;
+
+        span.spend {
+          position: absolute;
+          right: 0px;
+          padding: 5px;
+          border-radius: 6px;
+          background-color: rgb(35 169 142);
+        }
+      }
+    }
+  }
+}
