@@ -1,0 +1,14 @@
+.TodoCounter {
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0px 40px 0px;
+    color: #ddcba4;
+  }
+
+.title-counter {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 40px;
+  color: #ddcba4;
+}

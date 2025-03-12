@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0a3826;
+    color: #1E1E1F;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  }
+  
+  #root {
+    margin: 0 24px;
+    position: relative;
+    min-height: 100vh;
+  }
+
+
+/* #164734
+// #426253
+// #79947f
+// #ddcba4
+// #c6bb85
+// #ffffff */
