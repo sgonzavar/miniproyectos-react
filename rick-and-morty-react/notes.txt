@@ -1,0 +1,14 @@
+comandos usados en el curso 
+
+npm init para inicial npm y el gestor de dependencias
+
+npm install react react-dom ---> para instalar react y el DOM de react
+
+npm install webpack webpack-cli ---> para instalar webpack y el CLI 
+
+npm install @babel/core @babel/preset-env @babel/preset-react babel-loader -D ---> para instalar babel 
+
+npm install core-js ---> para hacer el codigo mas liviano
+
+npm install --save-dev html-webpack-plugin
+
