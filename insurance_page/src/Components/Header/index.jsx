@@ -1,4 +1,5 @@
 import styled from '@emotion/styled'
+import PropTypes from 'prop-types'
 
 
 const ContainHeader = styled.header`
@@ -16,7 +17,7 @@ const TextHeader = styled.h1`
 `
 
 // eslint-disable-next-line react/prop-types
-const Header = ({ title }) => {
+export const Header = ({ title }) => {
   return (
     <ContainHeader>
       <TextHeader>{ title }</TextHeader>
@@ -24,4 +25,6 @@ const Header = ({ title }) => {
   )
 }
 
-export default Header
+Header.propTypes = {
+  title: PropTypes.string.isRequired
+}
