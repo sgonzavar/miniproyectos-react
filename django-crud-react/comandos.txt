@@ -1,0 +1,14 @@
+ambiente virtual
+- pip install virtualenv
+- python -m venv venv
+
+
+crear app django
+- pip install django
+- django-admin startproject django_crud_api .
+- python manage.py startapp task_react
+- python manage.py migrate
+- pip install djangorestframework
+- pip install django-cors-headers
+
+
