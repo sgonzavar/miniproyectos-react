@@ -1,0 +1,70 @@
+.form-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.form-container .input-field {
+    margin-bottom: 10px;
+}
+
+.form-container .input-field label {
+    color: #333;
+}
+
+.form-container .input-field input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 65%;
+}
+
+.form-container .input-field input:focus {
+    outline: none;
+    border-color: #03a9f4;
+}
+
+.select-field {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.select-field label {
+    color: #333;
+}
+
+.select-field select {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 56%;
+}
+
+.select-field select:focus {
+    outline: none;
+    border-color: #03a9f4;
+}
+
+.select-field .select-option {
+    margin-left: 10px;
+}
+
+.send-field {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.send-field input {
+    background-color: #03a9f4;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.send-field input:hover {
+    background-color: #0288d1;
+}
