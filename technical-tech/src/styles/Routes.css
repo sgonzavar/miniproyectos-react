@@ -1,0 +1,10 @@
+.nav-link .btn-info {
+    color: white;
+    font-weight: bold;
+}
+
+
+.nav-link .btn-info:hover {
+    color: #212529;
+    /* font-weight: bold; */
+}
